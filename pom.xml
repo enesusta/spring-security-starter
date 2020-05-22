@@ -2,9 +2,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
   <groupId>com.github.enesusta</groupId>
   <artifactId>spring-security-starter</artifactId>
   <version>1.0.0</version>
+  <packaging>jar</packaging>
+
+  <name>spring-security-starter</name>
+  <description>Utility class for Spring Security to easy usage</description>
+  <url>https://github.com/enesusta/spring-security-starter</url>
 
   <properties>
     <mvn-compiler-plugin.version>3.8.1</mvn-compiler-plugin.version>
@@ -29,6 +35,15 @@
     </developer>
   </developers>
 
+  <scm>
+    <connection>scm:git:git://github.com/enesusta/spring-security-starter.git
+    </connection>
+    <developerConnection>
+      scm:git:ssh://github.com:enesusta/spring-security-starter.git
+    </developerConnection>
+    <url>http://github.com/enesusta/spring-security-starter</url>
+    <tag>HEAD</tag>
+  </scm>
 
   <dependencies>
     <dependency>
@@ -72,7 +87,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
 
 
   <build>
